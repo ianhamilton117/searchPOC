@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
   <url>
-    <loc>http://search-poc.herokuapp.com</loc>
+    <loc>http://search-poc-universal.herokuapp.com</loc>
   </url>
   <url>
-    <loc>http://search-poc.herokuapp.com/recipes</loc>
+    <loc>http://search-poc-universal.herokuapp.com/recipes</loc>
   </url>
   <url>
-    <loc>http://search-poc.herokuapp.com/recipes/new</loc>
+    <loc>http://search-poc-universal.herokuapp.com/recipes/new</loc>
   </url>
   <url>
-    <loc>http://search-poc.herokuapp.com/shopping-list</loc>
+    <loc>http://search-poc-universal.herokuapp.com/shopping-list</loc>
   </url>
 </urlset>
