@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node dist/server.js",
+    "start": "npm run serve:prerender",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -12,7 +12,7 @@
     "build:client-and-server-bundles": "ng build --prod && ng run searchPOC:server:production",
     "generate:prerender": "cd dist && node prerender",
     "serve:prerender": "cd dist/browser && http-server",
-    "postinstall": "",
+    "postinstall": "npm run build:prerender",
     "webpack:server": "webpack --config webpack.server.config.js --progress --colors"
   },
   "private": true,
